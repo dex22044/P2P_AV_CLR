@@ -1,0 +1,48 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly ScreenCapturer, Version=1.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly SharpDX.Direct3D11, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1: 
+	hash=None, flags=None
+Assembly SharpDX.DXGI, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1: 
+	hash=None, flags=None
+Assembly SharpDX, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1: 
+	hash=None, flags=None
+Class ScreenCapturerNS.OnCaptureStopEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+  Properties:
+    System.Exception Exception 'get set' : 
+  Methods:
+    get_Exception(): PrivateScope, Public, HideBySig, SpecialName
+    set_Exception(Exception): PrivateScope, Public, HideBySig, SpecialName
+Class ScreenCapturerNS.OnScreenUpdatedEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+  Properties:
+    System.Drawing.Bitmap Bitmap 'get set' : 
+  Methods:
+    get_Bitmap(): PrivateScope, Public, HideBySig, SpecialName
+    set_Bitmap(Bitmap): PrivateScope, Public, HideBySig, SpecialName
+Class ScreenCapturerNS.ScreenCapturer: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed
+  Fields:
+    Boolean SkipFirstFrame : Public, Static
+    Boolean SkipFrames : Public, Static
+    Boolean PreserveBitmap : Public, Static
+  Properties:
+    Boolean IsActive 'get ' : 
+    Boolean IsNotActive 'get ' : 
+  Events:
+    System.EventHandler`1[ScreenCapturerNS.OnScreenUpdatedEventArgs] OnScreenUpdated: 
+    System.EventHandler`1[ScreenCapturerNS.OnCaptureStopEventArgs] OnCaptureStop: 
+  Methods:
+    add_OnScreenUpdated(EventHandler`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    remove_OnScreenUpdated(EventHandler`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    add_OnCaptureStop(EventHandler`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    remove_OnCaptureStop(EventHandler`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_IsActive(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_IsNotActive(): PrivateScope, Public, Static, HideBySig, SpecialName
+    StartCapture(Int32(Optional, HasDefault), Int32(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    StartCapture(Action`1, Int32(Optional, HasDefault), Int32(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    StopCapture(): PrivateScope, Public, Static, HideBySig

@@ -1,0 +1,11 @@
+﻿  P2P_AV_CLR.cpp
+  VideoStreamer.cpp
+  Создание кода...
+  AssemblyInfo.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+VideoStreamer.obj : warning LNK4248: неразрешенная лексема TypeRef (0100000D) для "SDL_Window"; образ нельзя запустить
+P2P_AV_CLR.obj : warning LNK4248: неразрешенная лексема TypeRef (0100000D) для "SDL_Window"; образ нельзя запустить
+VideoStreamer.obj : warning LNK4248: неразрешенная лексема TypeRef (0100000E) для "SDL_Renderer"; образ нельзя запустить
+P2P_AV_CLR.obj : warning LNK4248: неразрешенная лексема TypeRef (0100000E) для "SDL_Renderer"; образ нельзя запустить
+VideoStreamer.obj : warning LNK4248: неразрешенная лексема TypeRef (0100000F) для "SDL_Texture"; образ нельзя запустить
+P2P_AV_CLR.obj : warning LNK4248: неразрешенная лексема TypeRef (0100000F) для "SDL_Texture"; образ нельзя запустить
+  P2P_AV_CLR.vcxproj -> E:\GitHub\P2P_AV_CLR\P2P_AV_CLR\Debug\P2P_AV_CLR.exe

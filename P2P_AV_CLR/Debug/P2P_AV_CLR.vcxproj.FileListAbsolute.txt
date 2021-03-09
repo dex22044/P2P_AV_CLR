@@ -1,0 +1,3 @@
+E:\GitHub\P2P_AV_CLR\P2P_AV_CLR\P2P_AV_CLR\Debug\P2P_AV_CLR.vcxprojAssemblyReference.cache
+E:\GitHub\P2P_AV_CLR\P2P_AV_CLR\P2P_AV_CLR\Debug\P2P_AV_CLR.vcxproj.CopyComplete
+E:\GitHub\P2P_AV_CLR\P2P_AV_CLR\Debug\SDL2.dll

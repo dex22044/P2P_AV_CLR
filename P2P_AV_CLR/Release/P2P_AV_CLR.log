@@ -1,0 +1,12 @@
+﻿  pch.cpp
+  AssemblyInfo.cpp
+  P2P_AV_CLR.cpp
+  VideoStreamer.cpp
+  Создание кода...
+  .NETFramework,Version=v4.8.AssemblyAttributes.cpp
+  AssemblyInfo.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ _SDL_main в функции _main_getcmdline.
+    Указание на символы, которые определены и могут подойти:
+      "int __clrcall SDL_main(cli::array<class System::String ^ >^)" (?SDL_main@@$$FYMHP$01AP$AAVString@System@@@Z)
+      "int __clrcall SDL_main(cli::array<class System::String ^ >^)" (?SDL_main@@YMHP$01AP$AAVString@System@@@Z)
+E:\GitHub\P2P_AV_CLR\P2P_AV_CLR\Release\P2P_AV_CLR.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
